@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maghtech</title>
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Josefin+Sans&family=Lobster&family=Montserrat&family=Poppins&family=Righteous&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/52f4839422.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Maghtech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="slide-show d-flex align-items-center text-light text-center">
+            <div class="container">
+                <h1 class="">Get started</h1>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, minima!</P>
+                <button class="btn btn-custom ps-4 pe-4 text-uppercase mb-5">Get started</button>
+                <div id="animeCarousel" class="carousel" data-bs-ride="false" data-bs-pause="hover" data-bs-keyboard="true">
+                    <div class="carousel-inner ps-4 pe-4">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/hisoka.png" class="img-fluid" alt="">
+                                        <h1>Hisoka</h1>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/itachi.png" class="img-fluid" alt="">
+                                        <h1>Itachi</h1>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/killua.png" class="img-fluid" alt="">
+                                        <h1>Killua</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/levi.png" class="img-fluid" alt="">
+                                        <h1>Levi</h1>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/lightyagami.png" class="img-fluid" alt="">
+                                        <h1 class="fs-2">Light Yagami</h1>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="animeBox">
+                                        <img src="assets/images/naruto.png" class="img-fluid" alt="">
+                                        <h1>Naruto</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#animeCarousel" data-bs-slide="prev">
+                        <i class="fa-solid fa-circle-chevron-left fa-2x"></i>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#animeCarousel" data-bs-slide="next">
+                        <i class="fa-solid fa-circle-chevron-right fa-2x"></i>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>    
+                
+                <div class="contact-us row mt-4">
+                    <ul class="col list-unstyled d-flex justify-content-center gap-3">
+                        <li><a href="#"><i class="fa-brands fa-discord discord"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram ig"></i></a></li>
+                    </ul>
+                    <div class="col">
+                        <p>Created by <span id="maghh">Maghraby</span> &copy; 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html> 

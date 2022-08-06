@@ -1,0 +1,101 @@
+/*font-family: 'Exo', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+:root{
+    --purple-col: #231955;
+    --blue-col: #1F4690;
+}
+
+body{
+    background-image: url(/assets/images/galaxy.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;    
+}
+
+.navbar-brand:hover{
+    color: #8f8f8f;
+}
+
+.nav-item a{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.slide-show{
+    height: calc(100vh - 56px);
+}
+
+.slide-show .fa-solid{
+    color: #7A4495;
+}
+
+.btn-custom{
+    border-color: #80558C;
+    color: #80558C;
+    font-family: 'Righteous', cursive;
+}
+
+.btn-custom:hover{
+    background-color: #80558C;
+    color: white;
+    border-color: #80558C;
+}
+
+.animeBox{
+    background-color: #41153059;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.animeBox img{
+    border-radius: 50%;
+    max-height: 220px;
+}
+
+.animeBox:hover{
+    background-color: #51325242;
+    transform: scale(0.95);
+}
+ 
+.contact-us li a{
+    color: white;
+}
+
+.contact-us .discord:hover{
+    color: #7289da;
+}
+
+.contact-us .twitter:hover{
+    color: #1da1f2;
+}
+
+.contact-us .ig:hover{
+    color: #833ab4;
+}
+
+#maghh{
+    font-family: 'Righteous', cursive;    
+    color: #b664cc;
+}
