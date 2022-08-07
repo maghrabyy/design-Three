@@ -37,6 +37,14 @@ p{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.logout{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logout:hover{
+    color: rgb(241, 128, 128) !important;
+}
+
 .slide-show{
     min-height: calc(100vh - 56px);
 }

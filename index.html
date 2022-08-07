@@ -24,14 +24,13 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Maghtech</a>
+            <div class="container d-flex">
+                <a class="navbar-brand order-md-1 order-1 ms-md-0 ms-auto" href="#">Maghtech</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse order-md-2 order-3" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-auto">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Home</a>
                         </li>
@@ -46,16 +45,22 @@
                         </li>
                     </ul>
                 </div>
+                <a href="#" class="ms-auto order-2 text-danger text-decoration-none d-flex align-items-center gap-2 logout">
+                    <span class="d-md-inline d-none">Logout</span>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </a>
             </div>
         </nav>
     </header>
     <main>
         <div class="slide-show d-flex align-items-center text-light text-center">
             <div class="container">
-                <h1 class="">Get started</h1>
-                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, minima!</P>
-                <button class="btn btn-custom ps-4 pe-4 text-uppercase mb-5">Get started</button>
-                <div id="animeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover" data-bs-keyboard="true">
+                <div class="topInfo  pb-5">
+                    <h1>Get started</h1>
+                    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, minima!</P>
+                    <button class="btn btn-custom ps-4 pe-4 text-uppercase">Get started</button>    
+                </div>
+                <div id="animeCarousel" class="carousel slide pb-4" data-bs-ride="carousel" data-bs-pause="hover" data-bs-keyboard="true">
                     <div class="carousel-inner pe-5 ps-5">
                         <div class="carousel-item active">
                             <div class="row justify-content-center">
@@ -111,8 +116,7 @@
                         <span class="visually-hidden">Next</span>
                       </button>
                 </div>    
-
-                <div class="contact-us row mt-4">
+                <div class="contact-us row pt-md-0 pt-5">
                     <ul class="col list-unstyled d-flex justify-content-center gap-3">
                         <li><a href="#"><i class="fa-brands fa-discord discord"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
