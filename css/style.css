@@ -107,3 +107,12 @@ p{
     font-family: 'Righteous', cursive;    
     color: #b664cc;
 }
+
+/* Login page */
+.loginBody{
+    height: 100vh;
+}
+
+.login p{
+    font-size: 11pt;
+}
